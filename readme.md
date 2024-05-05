@@ -12,7 +12,11 @@ We're cool as long as we can view your solution without any pain.
 
 ## Problem1 ##
 ### RUN ###
+```cd src/problem1```
+
 ```npm run problem1```
 
 ### TEST ###
+```cd src/problem1```
+
 ```npm run test1```

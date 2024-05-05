@@ -4,13 +4,8 @@
   "description": "Note that if you fork this repository, your responses may be publicly linked to this repo.   Please submit your application along with the solutions attached or linked.",
   "main": "index.js",
   "scripts": {
-    "problem1": "node src/problem1/problem1.js",
-    "problem2": "node src/problem2/problem2.js",
-    "problem3": "node src/problem3/problem3.js",
-    "problem4": "node src/problem4/problem4.js",
-    "problem5": "node src/problem5/problem5.js",
-    "problem6": "node src/problem6/problem6.js",
-    "test1": "node src/problem1/problem1.test.js"
+    "problem1": "node problem1.js",
+    "test1": "node problem1.test.js"
   },
   "repository": {
     "type": "git",
@@ -23,6 +18,5 @@
   },
   "homepage": "https://github.com/sentosanetwork/TranDanhTuan#readme",
   "devDependencies": {
-    "jest": "^29.7.0"
   }
 }
