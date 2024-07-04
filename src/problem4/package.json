@@ -1,0 +1,22 @@
+{
+  "name": "trandanhtuan",
+  "version": "1.0.0",
+  "description": "Note that if you fork this repository, your responses may be publicly linked to this repo.   Please submit your application along with the solutions attached or linked.",
+  "main": "index.js",
+  "scripts": {
+    "problem4": "node problem4.js",
+    "test4": "node problem4.test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sentosanetwork/TranDanhTuan.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sentosanetwork/TranDanhTuan/issues"
+  },
+  "homepage": "https://github.com/sentosanetwork/TranDanhTuan#readme",
+  "devDependencies": {
+  }
+}
