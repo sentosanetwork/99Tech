@@ -1,0 +1,110 @@
+/* Reset default margins and paddings */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Global styles */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #222;
+  color: #ddd;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.App {
+  text-align: center;
+}
+
+.App-header {
+  background-color: #333;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+  padding: 20px;
+}
+
+/* Form container styles */
+.form-container {
+  background-color: #333;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  padding: 40px;
+  width: 400px;
+  max-width: 90%;
+  margin: auto;
+}
+
+/* Token select styles */
+.token-select {
+  margin-bottom: 20px;
+}
+
+.token-select label {
+  display: block;
+  font-weight: bold;
+  margin-bottom: 8px;
+  color: #ddd;
+}
+
+.token-select select {
+  width: 100%;
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #666;
+  border-radius: 4px;
+  background-color: #444;
+  color: #ddd;
+}
+
+/* Amount input styles */
+.amount-input {
+  margin-bottom: 20px;
+}
+
+.amount-input label {
+  display: block;
+  font-weight: bold;
+  margin-bottom: 8px;
+  color: #ddd;
+}
+
+.amount-input input {
+  width: 100%;
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #666;
+  border-radius: 4px;
+  background-color: #444;
+  color: #ddd;
+}
+
+/* Swap button styles */
+.swap-button {
+  background-color: #007bff;
+  color: white;
+  padding: 12px 24px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.swap-button:hover {
+  background-color: #0056b3;
+}
+
+/* Error message styles */
+.error-message {
+  color: #ff4d4d;
+  font-size: 14px;
+  margin-bottom: 10px;
+}
