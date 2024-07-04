@@ -4,6 +4,8 @@ interface MovieFilters {
     title?: string;
     genre?: string;
     year?: number;
+    limit?: number;
+    offset?: number;
 }
 
 export const createMovieService = async (movieData: any) => {
@@ -26,10 +28,12 @@ export const getMoviesService = async (filters: MovieFilters) => {
         query.year = filters.year;
     }
 
-    console.log(`getMoviesService query`, query);
-    const movies = await Movie.find(query);
-    console.log(`getMoviesService movies`, movies);
-    return movies;
+    const limit = filters.limit ?? 20; // Default limit to 20
+    const offset = filters.offset ?? 0; // Default offset to 0
+
+    return await Movie.find(query)
+        .limit(limit)
+        .skip(offset);
 };
 
 export const getMovieService = async (id: string) => {

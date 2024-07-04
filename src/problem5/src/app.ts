@@ -5,11 +5,23 @@ import movieRoutes from './routes/movieRoutes';
 
 import dotenv from 'dotenv';
 
+import swaggerUi from 'swagger-ui-express';
+import swaggerSpec from './swaggerConfig';
+
 dotenv.config();
 
 const app = express();
 
-app.use(bodyParser.json());
+// Middleware
+app.use(express.json());
+
+// Routes
+app.use('/api/movies', movieRoutes);
+
+// Swagger UI
+app.use('/api-docs', swaggerUi.serve, swaggerUi.setup(swaggerSpec));
+
+// app.use(bodyParser.json());
 
 // MongoDB connection string
 const MONGO_URI = process.env.MONGO_URI || '';

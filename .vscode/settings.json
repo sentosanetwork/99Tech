@@ -1,0 +1,25 @@
+{
+    "graalvm.home": "/Library/Java/JavaVirtualMachines/graalvm-jdk-17.0.10+11.1/Contents/Home",
+    "graalvm.installations": [
+        "/Library/Java/JavaVirtualMachines/graalvm-jdk-17.0.10+11.1/Contents/Home"
+    ],
+    "terminal.integrated.env.osx": {
+        "GRAALVM_HOME": "/Library/Java/JavaVirtualMachines/graalvm-jdk-17.0.10+11.1/Contents/Home",
+        "JAVA_HOME": "/Library/Java/JavaVirtualMachines/graalvm-jdk-17.0.10+11.1/Contents/Home",
+        "PATH": "/Library/Java/JavaVirtualMachines/graalvm-jdk-17.0.10+11.1/Contents/Home/bin:${env:PATH}"
+    },
+    "java.home": "/Library/Java/JavaVirtualMachines/graalvm-jdk-17.0.10+11.1/Contents/Home",
+    "java.configuration.runtimes": [
+        {
+            "name": "JavaSE-17",
+            "path": "/Library/Java/JavaVirtualMachines/graalvm-jdk-17.0.10+11.1/Contents/Home",
+            "default": true
+        }
+    ],
+    "maven.terminal.customEnv": [
+        {
+            "environmentVariable": "JAVA_HOME",
+            "value": "/Library/Java/JavaVirtualMachines/graalvm-jdk-17.0.10+11.1/Contents/Home"
+        }
+    ]
+}

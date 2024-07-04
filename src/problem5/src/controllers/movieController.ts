@@ -20,6 +20,8 @@ export const getMovies = async (req: Request, res: Response) => {
             title: req.query.title as string,
             genre: req.query.genre as string,
             year: req.query.year ? parseInt(req.query.year as string) : undefined,
+            limit: req.query.limit ? parseInt(req.query.limit as string) : 20,
+            offset: req.query.offset ? parseInt(req.query.offset as string) : 0,
         };
 
         const movies = await getMoviesService(filters);
