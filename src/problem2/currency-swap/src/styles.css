@@ -108,3 +108,44 @@ body {
   font-size: 14px;
   margin-bottom: 10px;
 }
+
+
+
+
+
+/* styles.css */
+.token-select {
+  margin-bottom: 20px;
+}
+
+.select-container {
+  display: flex;
+  align-items: center;
+}
+
+.token-info {
+  display: flex;
+  align-items: center;
+  margin-left: 10px; /* Adjust spacing between select and token info */
+}
+
+.token-image {
+  width: 32px; /* Adjust width as needed */
+  height: 32px; /* Adjust height as needed */
+  margin-left: 10px; /* Adjust spacing between token info and image */
+}
+
+
+.outcome-price,
+.amount-input,
+.amount-output {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.outcome-price label,
+.amount-input label,
+.amount-output label {
+    font-weight: bold;
+    margin-right: 10px;
+}
