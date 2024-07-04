@@ -14,9 +14,9 @@ We're cool as long as we can view your solution without any pain.
 ### RUN ###
 ```cd src/problem4```
 
-```npm run problem4```
+```npm run start```
 
 ### TEST ###
 ```cd src/problem4```
 
-```npm run test4```
+```npm run test```
