@@ -16,7 +16,13 @@ export const createMovie = async (req: Request, res: Response) => {
 
 export const getMovies = async (req: Request, res: Response) => {
     try {
-        const movies = await getMoviesService();
+        const filters = {
+            title: req.query.title as string,
+            genre: req.query.genre as string,
+            year: req.query.year ? parseInt(req.query.year as string) : undefined,
+        };
+
+        const movies = await getMoviesService(filters);
         res.json(movies);
     } catch (error) {
         if (error instanceof Error) {

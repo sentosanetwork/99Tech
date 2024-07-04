@@ -86,5 +86,5 @@ const MovieSchema: Schema = new Schema({
     num_mflix_comments: { type: Number }
 });
 
-const Movie = mongoose.model<IMovie>('Movie', MovieSchema);
+const Movie = mongoose.model<IMovie>('movies', MovieSchema);
 export default Movie;
