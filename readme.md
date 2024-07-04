@@ -20,3 +20,15 @@ We're cool as long as we can view your solution without any pain.
 ```cd src/problem1```
 
 ```npm run test1```
+
+
+## Problem4 ##
+### RUN ###
+```cd src/problem4```
+
+```npm run problem4```
+
+### TEST ###
+```cd src/problem4```
+
+```npm run test4```
